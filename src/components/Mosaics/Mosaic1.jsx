@@ -1,4 +1,4 @@
-export default function Mosaic1 () {
+export function Mosaic1 () {
   return (
     <section className='grid grid-cols-12 h-screen relative'>
       <div

@@ -1,4 +1,4 @@
-import Logo from '../icons/Logo.jsx'
+import { Logo } from '../icons/Logo.jsx'
 
 export function Header () {
   return (
@@ -19,8 +19,8 @@ export function Header () {
       </nav>
       <nav className='w-full'>
         <ul className='flex justify-end gap-6'>
-          <li><a href='/' className='text-blue-800 text-xl'>Try Live for free</a></li>
-          <li><a href='/' className='text-sm font-bold'>Log in or register</a></li>
+          <li><a href='#' className='text-blue-800 text-xl'>Try Live for free</a></li>
+          <li><a href='#' className='text-sm font-bold'>Log in or register</a></li>
         </ul>
       </nav>
     </header>

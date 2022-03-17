@@ -1,21 +1,18 @@
 import { Header } from './components/Header'
 import { ParagraphLinks } from './components/Paragraph_with_Links'
-import Mosaic1 from './components/Mosaics/Mosaic_1'
-import Mosaic2 from './components/Mosaics/Mosaic_2'
+import { Mosaic1 } from './components/Mosaics/Mosaic_1'
+import { Mosaic2 } from './components/Mosaics/Mosaic_2'
 import { Mosaic3 } from './components/Mosaics/Mosaic_3'
-import Mosaic4 from './components/Mosaics/Mosaic_4'
-import Paragraph from './components/Paragraph'
-import Footer from './components/Footer'
+import { Mosaic4 } from './components/Mosaics/Mosaic_4'
+import { Paragraph } from './components/Paragraph'
+import { Footer } from './components/Footer'
+import { StickyNav } from './components/StickyNav'
 
 export default function App () {
   return (
     <>
       <Header />
-      <nav className='flex list-none gap-8 py-4 px-10 font-bold text-sm'>
-        <li><a href='#' className='text-[#fd5948]'>About</a></li>
-        <li><a href='#'>Jobs</a></li>
-        <li><a href='#'>Apprenticeship</a></li>
-      </nav>
+      <StickyNav />
       <main className='w-full m-auto'>
         <section className='w-full h-screen hero-image grid place-items-center'>
           <h1 className='text-9xl text-[#fd5948]'>Ableton</h1>
