@@ -1,4 +1,4 @@
-export function Mosaic4 () {
+export default function Mosaic4 () {
   return (
     <section className='grid grid-cols-2 px-[10%]'>
       <img src='https://ableton-production.imgix.net/about/photo-8.jpg' className='h-full' />

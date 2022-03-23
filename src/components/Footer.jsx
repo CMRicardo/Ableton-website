@@ -1,7 +1,7 @@
 import { SocialMediaIcons } from './SocialMediaIcons'
 import { Logo } from '../icons/Logo'
 
-export function Footer() {
+export function Footer () {
   return (
     <section className='h-screen max-w-5xl m-auto'>
       <h2 className='text-6xl pt-8'>Ableton</h2>
@@ -72,7 +72,7 @@ export function Footer() {
           <ul>
             <li>
               <form className='grid grid-cols-2 gap-1 text-sm'>
-                <select name='Language' className='p-1 bg-slate-200'>
+                <select name='Language' className='p-1 bg-slate-200 rounded-none'>
                   <option value='English'>English</option>
                   <option value='English'>Deutsh</option>
                   <option value='English'>Français</option>

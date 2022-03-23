@@ -1,4 +1,4 @@
-export function Mosaic2 () {
+export default function Mosaic2 () {
   return (
     <section className='grid grid-cols-12 relative'>
       <div className='w-full h-full py-[10%] grid place-items-center gap-32 col-span-7 row-start-1 col-start-1 bg-[#b6ffc0]'>

@@ -1,5 +1,4 @@
-
-export function Mosaic3 () {
+export default function Mosaic3 () {
   return (
     <section className='w-full h-screen grid place-items-center grid-cols-12 relative'>
       <img
