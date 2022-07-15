@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 .hero-image {
-  background-image: url('https://ableton-production.imgix.net/about/header.jpg');
+  background-image: url('https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
-html, body {
+html,
+body {
   font-family: 'Jost', sans-serif;
 }

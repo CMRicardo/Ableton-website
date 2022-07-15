@@ -11,7 +11,7 @@ const Mosaic2 = lazy(() => import('./components/Mosaics/Mosaic2'))
 const Mosaic3 = lazy(() => import('./components/Mosaics/Mosaic3'))
 const Mosaic4 = lazy(() => import('./components/Mosaics/Mosaic4'))
 
-export default function App () {
+export default function App() {
   return (
     <>
       <Header />
@@ -25,13 +25,13 @@ export default function App () {
           <Mosaic1 />
         </Suspense>
         <Paragraph
-          first={'Making music isn\'t easy.It takes time, effort, and learning.But when you\'re in the flow, it\'s incredibly rewarding.'}
+          first={
+            "Making music isn't easy.It takes time, effort, and learning.But when you're in the flow, it's incredibly rewarding."
+          }
           second='We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.'
         />
         <section className='max-w-2xl m-auto grid gap-2 py-4'>
-          <img
-            src='https://ableton-production.imgix.net/about/poster-juanpe.jpg'
-          />
+          <img src='https://ableton-production.imgix.net/about/poster-juanpe.jpg?fit=crop&auto=format&fm=jpg' />
           <small className='font-bold'>Why Ableton - Juanpe Bolivar</small>
         </section>
         <Paragraph
@@ -41,12 +41,19 @@ export default function App () {
         <Suspense fallback={<Spinner />}>
           <Mosaic2 />
         </Suspense>
-        <Paragraph first='We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.' second={'Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We\'ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don\'t always agree with each other, but opinion and debate are valued and openly encouraged.'} />
+        <Paragraph
+          first='We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.'
+          second={
+            "Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We've learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don't always agree with each other, but opinion and debate are valued and openly encouraged."
+          }
+        />
         <section className='w-full h-screen grid place-items-center'>
-          <img src='https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format&fit=crop&fm=jpg&ixjsv=1.1.3&w=1138' />
+          <img src='https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?fit=crop&auto=format&fm=jpg' />
         </section>
         <Paragraph
-          first={'We\'re passionate about what we do, but we\'re equally passionate about improving who we are.'}
+          first={
+            "We're passionate about what we do, but we're equally passionate about improving who we are."
+          }
           second='We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.'
           third='Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.'
         />
@@ -54,8 +61,12 @@ export default function App () {
           <Mosaic3 />
         </Suspense>
         <Paragraph
-          first={'We want our employees to love it here. Since we\'re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.'}
-          second={'If you\'re joining us in Berlin, we\'ll help with relocation and paperwork. We\'ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it\'s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.'}
+          first={
+            "We want our employees to love it here. Since we're looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible."
+          }
+          second={
+            "If you're joining us in Berlin, we'll help with relocation and paperwork. We'll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it's not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities."
+          }
         />
         <Suspense fallback={<Spinner />}>
           <Mosaic4 />
